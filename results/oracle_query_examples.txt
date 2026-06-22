@@ -1,0 +1,35 @@
+=== QUERY 1: Restaurants in Philadelphia ===
+Key: city_category:Philadelphia:Restaurants
+Total restaurants found: 3000
+First 3 business ids: ['MTSW4McQd7CbVtyjqoe9mw', 'MUTTqe8uqyMdBl186RmNeA', 'ROeacJQwBeh05Rqg7F6TCg']
+
+=== QUERY 2: Business by ID ===
+Business ID: MTSW4McQd7CbVtyjqoe9mw
+Name: St Honore Pastries
+City: Philadelphia
+Stars: 4.0
+Review count: 80
+Categories: Restaurants, Food, Bubble Tea, Coffee & Tea, Bakeries
+
+=== QUERY 3: Reviews for business ===
+Business ID: MTSW4McQd7CbVtyjqoe9mw
+Total reviews stored for this business: 52
+First 3 review ids: ['BXQcBN0iAi1lAUxibGLFzA', 'uduvUCvi9w3T2bSGivCfXg', 'a0vwPOqDXXZuJkbBW2356g']
+
+=== QUERY 4: Business statistics ===
+Business ID: MTSW4McQd7CbVtyjqoe9mw
+Review count: 52
+Average stars: 4.019230769230769
+
+=== QUERY 5: Review by ID ===
+Review ID: BXQcBN0iAi1lAUxibGLFzA
+Business ID: MTSW4McQd7CbVtyjqoe9mw
+User ID: 6_SpY41LIHZuIaiDs5FMKA
+Stars: 4.0
+Text preview: This is nice little Chinese bakery in the heart of Philadelphia's Chinatown! The female cashier was very friendly (flirtatious!) and the pastries shown in nicely adorned display cases. I stopped by ea...
+
+=== QUERY 6: User by ID ===
+User ID: 6_SpY41LIHZuIaiDs5FMKA
+Name: K
+Review count: 38
+Average stars: 3.08

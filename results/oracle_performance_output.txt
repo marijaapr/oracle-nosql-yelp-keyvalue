@@ -1,0 +1,17 @@
+Measuring Oracle NoSQL performance...
+Measuring: Get restaurants in city/category
+Measuring: Get business by id
+Measuring: Get reviews for business
+Measuring: Get business statistics
+Measuring: Get review by id
+Measuring: Get user by id
+
+Performance results saved to: results/oracle_performance.csv
+
+Results:
+{'query': 'Get restaurants in city/category', 'key': 'city_category:Philadelphia:Restaurants', 'runs': 100, 'avg_ms': 14.6312, 'min_ms': 12.1631, 'max_ms': 21.3795}
+{'query': 'Get business by id', 'key': 'business:MTSW4McQd7CbVtyjqoe9mw', 'runs': 100, 'avg_ms': 1.4613, 'min_ms': 0.9864, 'max_ms': 2.2764}
+{'query': 'Get reviews for business', 'key': 'business_reviews:MTSW4McQd7CbVtyjqoe9mw', 'runs': 100, 'avg_ms': 1.3837, 'min_ms': 1.1446, 'max_ms': 3.8591}
+{'query': 'Get business statistics', 'key': 'stats:business:MTSW4McQd7CbVtyjqoe9mw', 'runs': 100, 'avg_ms': 1.1975, 'min_ms': 0.9503, 'max_ms': 1.8825}
+{'query': 'Get review by id', 'key': 'review:BXQcBN0iAi1lAUxibGLFzA', 'runs': 100, 'avg_ms': 1.467, 'min_ms': 1.1029, 'max_ms': 2.521}
+{'query': 'Get user by id', 'key': 'user:6_SpY41LIHZuIaiDs5FMKA', 'runs': 100, 'avg_ms': 1.9834, 'min_ms': 1.0804, 'max_ms': 3.3817}
